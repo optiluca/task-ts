@@ -1,6 +1,5 @@
 import setuptools
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+long_description = "A package for forecasting CoronaVirus infection rates"
 with open('requirements.txt') as f:
     required = f.read().splitlines()
     
